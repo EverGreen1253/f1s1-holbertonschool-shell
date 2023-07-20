@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -exec stat -f '%SB %N' {} + | sort -rn | head -10
